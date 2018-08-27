@@ -3,17 +3,8 @@
 ## To run the entropy penalized EM algorithm with the code currently provided, you must have your input data in a specific format
 ## See SimData_R4_N400_K4_p2_q2.csv for an example
 ## Column names must be:
-
 #  RepNum    GeneID     V1.timepoint1     V1.timepoint2      ...      V1.timepointT
-#     1        1
-#     2        1
-#     3        1
-#     4        1 
-#     ...      ...
-#     1        N
-#     2        N
-#     3        N
-#     4        N 
+
 
 ### The user must specificy the fixed-effects polynomial order (p) and the random-effects polynomial order (r)
 ### You must also choose whether you want to average over your replicates (if any) by using R=1.
